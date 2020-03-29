@@ -67,3 +67,7 @@ PRODUCT_PACKAGES += \
     minimediaservice \
     minisfservice \
     miniafservice
+
+# Sensor Service
+PRODUCT_PACKAGES += \
+    sensorservice
