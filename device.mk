@@ -1,4 +1,4 @@
- #
+#
 # Copyright (C) 2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -22,6 +22,7 @@ PRODUCT_USE_DYNAMIC_PARTITION_SIZE := true
 
 # init scripts
 PRODUCT_PACKAGES += \
+    init.disabled.rc \
     init.hybris.rc \
     vndk-detect \
     on-post-data.sh
