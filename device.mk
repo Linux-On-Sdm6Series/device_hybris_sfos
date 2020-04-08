@@ -53,6 +53,8 @@ PRODUCT_PACKAGES += \
 
 # Misc
 PRODUCT_PACKAGES += \
+    libandroid \
+    libandroid_runtime \
     libdrm \
     libion \
     vendor.display.config@1.7
