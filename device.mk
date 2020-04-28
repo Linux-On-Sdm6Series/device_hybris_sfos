@@ -20,6 +20,9 @@
 # Enable dynamic partition size
 PRODUCT_USE_DYNAMIC_PARTITION_SIZE := true
 
+# Droidmedia: We need this for video recorder to be fixed.
+MINIMEDIA_AUDIOPOLICYSERVICE_ENABLE := 1
+
 # init scripts
 PRODUCT_PACKAGES += \
     init.disabled.rc \
