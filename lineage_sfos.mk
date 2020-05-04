@@ -24,6 +24,9 @@ $(call inherit-product, vendor/vndk/vndk.mk)
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Inherit fonts
+$(call inherit-product-if-exists, frameworks/base/data/fonts/fonts.mk)
+
 # Inherit device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
