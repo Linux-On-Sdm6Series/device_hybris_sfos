@@ -16,21 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-<<<<<<< HEAD
 ifneq ($(filter sfos,$(TARGET_DEVICE)),)
 include $(call all-makefiles-under,$(LOCAL_PATH))
-=======
-LOCAL_SRC_FILES += \
-    KeyBuffer.cpp \
-    Keymaster4.cpp \
-    main.cpp
-
-LOCAL_SHARED_LIBRARIES += \
-    android.hardware.keymaster@4.0 \
-    libbinder \
-    libhidlbase \
-    libkeymaster4support \
-    libutils
->>>>>>> 2fa1bb5... Create dummy key
 
 endif
