@@ -1,2 +1,6 @@
 [
+  {
+    "repository": "phhusson/vendor_vndk",
+    "target_path": "vendor/vndk"
+  }
 ]
